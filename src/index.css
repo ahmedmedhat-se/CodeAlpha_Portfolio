@@ -9,6 +9,7 @@ body {
   scroll-behavior: smooth;
   width: 100%;
   height: 100vh;
+
 }
 
 .btn:hover {
@@ -16,12 +17,13 @@ body {
 }
 
 nav {
-  background: rgb(238, 174, 202);
-  background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
+  background: linear-gradient(223deg, rgba(56, 12, 89, 1) 47%, rgba(131, 58, 180, 1) 70%, rgba(193, 53, 132, 1) 85%, rgba(252, 175, 69, 1) 100%);
+  color: #E1E8ED;
 }
 
 nav .navbar-brand {
   font-weight: bold;
+  color: #E1E8ED;
 }
 
 nav .navbar-toggler {
@@ -35,8 +37,9 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 
 header {
   padding: 5rem;
-  background: rgb(231, 221, 225);
-  background: linear-gradient(223deg, rgba(231, 221, 225, 1) 47%, rgba(148, 187, 233, 1) 100%);
+  margin-top: 140px;
+  background-color: #F5F8FA; 
+  color: #000;
 }
 
 header .home-landing {
@@ -134,8 +137,7 @@ header .box div:nth-child(10) {
 }
 
 .about-me {
-  background: rgb(238, 174, 202);
-  background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
+  background-color: #F5F8FA; 
   padding: 2rem;
 }
 
@@ -147,19 +149,14 @@ header .box div:nth-child(10) {
 .about-me .row .col .card {
   border: none;
   transition: 0.8s ease;
-}
-
-.about-me .row .col .card:hover {
   box-shadow: 2px 2px 2px 2px #000000;
-
 }
 
 .projects {
   display: flex;
   padding: 10px;
   justify-content: space-between;
-  background: rgb(231, 221, 225);
-  background: linear-gradient(223deg, rgba(231, 221, 225, 1) 47%, rgba(148, 187, 233, 1) 100%);
+  background-color: #F5F8FA; 
 }
 
 .projects .row div {
@@ -174,7 +171,7 @@ header .box div:nth-child(10) {
 
 .projects .card .btn {
   border: none;
-  background: rgb(238, 174, 202);
+  background: rgb(19, 3, 61);
   background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
   text-decoration: none;
   transition: all .4s ease;
@@ -182,19 +179,8 @@ header .box div:nth-child(10) {
 }
 
 .btn:hover {
-  border: 1px solid rgb(238, 174, 202);
+  border: 1px solid rgb(19, 3, 61);
 }
-
-footer {
-  background: rgb(238, 174, 202);
-  background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
-  font-weight: bold;
-}
-
-footer .text-body {
-  text-decoration: none;
-}
-
 
 .skill-section .background {
   width: 90%;
@@ -202,7 +188,7 @@ footer .text-body {
   right: auto;
   position: absolute;
   top: auto;
-  background-color: rgb(238, 174, 202);
+  background-color: rgb(19, 3, 61);
   left: 0px;
   bottom: 0px;
 }
@@ -328,7 +314,7 @@ footer .text-body {
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background-color: rgb(238, 174, 202);
+  background-color: rgb(19, 3, 61);
   padding-top: 13px;
   padding-right: 40px;
   padding-bottom: 13px;
@@ -344,7 +330,7 @@ footer .text-body {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgba(148, 187, 233, 1);
+  background-color: rgb(115, 26, 103);
 }
 
 .skill-section .text-row {
@@ -378,10 +364,10 @@ footer .text-body {
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  border-top-color: rgb(238, 174, 202);
-  border-right-color: rgb(238, 174, 202);
-  border-bottom-color: rgb(238, 174, 202);
-  border-left-color: rgb(238, 174, 202);
+  border-top-color: rgb(19, 3, 61);
+  border-right-color: rgb(19, 3, 61);
+  border-bottom-color: rgb(19, 3, 61);
+  border-left-color: rgb(19, 3, 61);
   border-image-source: initial;
   border-image-slice: initial;
   border-image-width: initial;
@@ -401,6 +387,17 @@ footer .text-body {
   font-size: 18px;
   line-height: 24px;
 }
+
+footer {
+  background: linear-gradient(223deg, rgba(56, 12, 89, 1) 47%, rgba(131, 58, 180, 1) 70%, rgba(193, 53, 132, 1) 85%, rgba(252, 175, 69, 1) 100%);
+  color: #fff;
+  font-weight: bold;
+}
+
+footer .text-body {
+  text-decoration: none;
+}
+
 
 @media (max-width: 1024px) {
   .skill-section .background {
@@ -569,6 +566,10 @@ footer .text-body {
 }
 
 .certificates {
-  background: rgb(231, 221, 225);
-  background: linear-gradient(223deg, rgba(231, 221, 225, 1) 47%, rgba(148, 187, 233, 1) 100%);
+  background-color: #F5F8FA; 
+}
+
+.certificates .container .row .col-md-12 .card{
+  background-color: #000;
+  color: #fff;
 }

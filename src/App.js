@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header.js'
-import About from './About.js';
-import Projects from './Projects.js';
-import Skills from './Skills.js';
-import Education from './Education.js';
-import Certificates from './Certificates.js';
-import Footer from './Footer.js';
+// App.js or App.tsx
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+import About from './About';
+import Projects from './Projects';
+import Skills from './Skills';
+import Education from './Education';
+import Certificates from './Certificates';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <About />
-      <Projects />
-      <Skills />
-      <Education />
-      <Certificates />
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/About" element={<About />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/Education" element={<Education />} />
+        <Route path="/Certificates" element={<Certificates />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

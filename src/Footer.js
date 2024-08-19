@@ -46,8 +46,7 @@ const Footer = () => {
                 </section>
             </div>
             <div className="text-center p-3">
-                © 2024 Copyright :
-                <a className="text-body" href="#Home"> Ahmed Medhat</a>
+                © 2024 Copyright : Ahmed Medhat
             </div>
         </footer>
     );

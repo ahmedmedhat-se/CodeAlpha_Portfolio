@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const About = () => {
     return (
-        <section className="about-me" id="About">
+        <section className="about-me">
             <h2>About Me</h2>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">

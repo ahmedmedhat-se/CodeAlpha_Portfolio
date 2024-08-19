@@ -26,14 +26,14 @@ const Certificates = () => {
                   </div>
                   <div className="col-md-6 col-lg-6 col-xl-6">
                     <h5>Biblotheca Alexandria Science And Engineering Fair (BASEF 2024)</h5>
-                    <div className="mt-1 mb-0 text-muted small">
+                    <div className="mt-1 mb-0 text-light small">
                       <span>Electricity</span>
                       <span className="text-primary"> • </span>
                       <span>Electric Circuit Analysis</span>
                       <span className="text-primary"> • </span>
                       <span>Web App Development<br /></span>
                     </div>
-                    <div className="mb-2 text-muted small">
+                    <div className="mb-2 text-light small">
                       <span>Prototype Testing</span>
                       <span className="text-primary"> • </span>
                       <span>Award Winner</span>
@@ -85,14 +85,14 @@ const Certificates = () => {
                   </div>
                   <div className="col-md-6 col-lg-6 col-xl-6">
                     <h5>IEEE YESIST12 Junior Einstein 2024</h5>
-                    <div className="mt-1 mb-0 text-muted small">
+                    <div className="mt-1 mb-0 text-light small">
                       <span>Electricity</span>
                       <span className="text-primary"> • </span>
                       <span>Electric Circuit Analysis</span>
                       <span className="text-primary"> • </span>
                       <span>Web App Development<br /></span>
                     </div>
-                    <div className="mb-2 text-muted small">
+                    <div className="mb-2 text-light small">
                       <span>Prototype Testing</span>
                       <span className="text-primary"> • </span>
                       <span>Award Winner</span>
@@ -141,14 +141,14 @@ const Certificates = () => {
                   </div>
                   <div className="col-md-6 col-lg-6 col-xl-6">
                     <h5>More Certificates</h5>
-                    <div className="mt-1 mb-0 text-muted small">
+                    <div className="mt-1 mb-0 text-light small">
                       <span>Data Analysis</span>
                       <span className="text-primary"> • </span>
                       <span>Visualization</span>
                       <span className="text-primary"> • </span>
                       <span>Web App Development<br /></span>
                     </div>
-                    <div className="mb-2 text-muted small">
+                    <div className="mb-2 text-light small">
                       <span>Prototype Testing</span>
                       <span className="text-primary"> • </span>
                       <span>Python Developer</span>
