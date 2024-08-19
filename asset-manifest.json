@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CodeAlpha_My_Portfolio/static/css/main.b694abc4.css",
-    "main.js": "/CodeAlpha_My_Portfolio/static/js/main.3803edee.js",
-    "static/js/453.ad6eb26e.chunk.js": "/CodeAlpha_My_Portfolio/static/js/453.ad6eb26e.chunk.js",
-    "index.html": "/CodeAlpha_My_Portfolio/index.html",
-    "main.b694abc4.css.map": "/CodeAlpha_My_Portfolio/static/css/main.b694abc4.css.map",
-    "main.3803edee.js.map": "/CodeAlpha_My_Portfolio/static/js/main.3803edee.js.map",
-    "453.ad6eb26e.chunk.js.map": "/CodeAlpha_My_Portfolio/static/js/453.ad6eb26e.chunk.js.map"
+    "main.css": "/CodeAlpha_Portfolio/static/css/main.b694abc4.css",
+    "main.js": "/CodeAlpha_Portfolio/static/js/main.83453e83.js",
+    "static/js/453.ad6eb26e.chunk.js": "/CodeAlpha_Portfolio/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/CodeAlpha_Portfolio/index.html",
+    "main.b694abc4.css.map": "/CodeAlpha_Portfolio/static/css/main.b694abc4.css.map",
+    "main.83453e83.js.map": "/CodeAlpha_Portfolio/static/js/main.83453e83.js.map",
+    "453.ad6eb26e.chunk.js.map": "/CodeAlpha_Portfolio/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b694abc4.css",
-    "static/js/main.3803edee.js"
+    "static/js/main.83453e83.js"
   ]
 }
