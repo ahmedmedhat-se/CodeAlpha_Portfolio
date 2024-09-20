@@ -128,7 +128,7 @@ const Projects = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Portfolio</h5>
                                 <h6 className="card-subtitle mb-2 text-light">
-                                    Html5 - Css3 - JavaScipt - Bootstrap v5 - React.js - Node.js
+                                    Bootstrap v5 - React.js
                                 </h6>
                                 <p className="card-text">
                                     I developed a portfolio showcasing my skills in web development, graphic design, and data analysis,
@@ -153,7 +153,7 @@ const Projects = () => {
                             <div className="card-body">
                                 <h5 className="card-title">WattWizards</h5>
                                 <h6 className="card-subtitle mb-2 text-light">
-                                    JavaScipt - TypeScipt - Bootstrap v5 - React.js - Node.js - PHP - SQL
+                                    Bootstrap v5 - React.js - Node.js - Express.js - SQL
                                 </h6>
                                 <p className="card-text">
                                     I developed a web application focused on electric circuit analysis,
@@ -187,7 +187,7 @@ const Projects = () => {
                                 </p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://github.com/loucass/dev-think" target='_blank' className="btn">
+                                <a href="https://github.com/loucass/devSync" target='_blank' className="btn">
                                     <FontAwesomeIcon icon={faGithub} /> Github
                                 </a>
                             </div>
@@ -197,23 +197,21 @@ const Projects = () => {
                         <div className="card h-100">
                             <div className="card-header">
                                 <img height={"300"}
-                                    src="https://th.bing.com/th/id/OIP.dwVxI82woZteilAyyMBepQHaHa?rs=1&pid=ImgDetMain"
+                                    src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/069c6f148110723.62cf5db8ac890.png"
                                     className="card-img-top"
                                     alt="Image Gallery" />
                             </div>
                             <div className="card-body">
-                                <h5 className="card-title">Image Gallery</h5>
+                                <h5 className="card-title">GrooveNexus</h5>
                                 <h6 className="card-subtitle mb-2 text-light">
-                                    Html5 - Css3 - JavaScipt - Bootstrap v5
+                                    Bootstrap v5 - React.js
                                 </h6>
                                 <p className="card-text">
-                                    I developed a simple image gallery,
-                                    featuring an intuitive interface and smooth navigation,
-                                    showcasing a collection of captivating visuals.
+                                    I developed GrooveNexus, a dynamic music player website where users can upload, manage, and pin tracks for seamless listening and interaction.
                                 </p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://github.com/ahmedmedhat-se/CodeAlpha_Image_Gallery" target='_blank' className="btn">
+                                <a href="https://github.com/ahmedmedhat-se/CodeAlpha_Music_Player" target='_blank' className="btn">
                                     <FontAwesomeIcon icon={faGithub} /> Github
                                 </a>
                             </div>

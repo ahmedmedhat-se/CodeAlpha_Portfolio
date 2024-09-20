@@ -3,8 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Certificates = () => {
   return (
-    <section className="certificates" id="Certificates">
-      <div className="container py-2">
+    <section className="certificates p-5" id="Certificates">
+      <h1 style={{textAlign : "center", fontWeight : "bold"}}>Certificates</h1>
+      <div className="container py-1">
         <div className="row justify-content-center mb-3">
           <div className="col-md-12 col-xl-10">
             <div className="card shadow-0 border rounded-3">
@@ -63,7 +64,7 @@ const Certificates = () => {
         </div>
       </div>
 
-      <div className="container py-2">
+      <div className="container py-1">
         <div className="row justify-content-center mb-3">
           <div className="col-md-12 col-xl-10">
             <div className="card shadow-0 border rounded-3">
@@ -119,7 +120,55 @@ const Certificates = () => {
           </div>
         </div>
       </div>
-      <div className="container py-2">
+      <div className="container py-1">
+        <div className="row justify-content-center mb-3">
+          <div className="col-md-12 col-xl-10">
+            <div className="card shadow-0 border rounded-3">
+              <div className="card-body">
+                <div className="row">
+                  <div className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                    <div className="bg-image hover-zoom ripple rounded ripple-surface">
+                      <img
+                        src="https://www.childrenshospitals.org/-/media/images/global/rectangle/default_summary.jpg"
+                        className="w-100"
+                        alt="LOR"
+                      />
+                      <a href="#!">
+                        <div className="hover-overlay">
+                          <div className="mask" style={{ backgroundColor: 'rgba(253, 253, 253, 0.15)' }}></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-lg-6 col-xl-6">
+                    <h5>Letter Of Recommendation</h5>
+                    <div className="mt-1 mb-0 text-light small">
+                      <span>Frontend Web Development</span>
+                      <span className="text-primary"> • </span>
+                      <span>MERN Stack Development</span>
+                      <span className="text-primary"> • </span>
+                      <span>Web App Development<br /></span>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                    <h6 className="text-success">I received a LOR from CodeAlpha for successfully completing my frontend development internship</h6>
+                    <div className="d-flex flex-column mt-4">
+                      <a
+                        className="btn btn-success"
+                        rel="noopener noreferrer"
+                        target='_blank' href="https://drive.google.com/file/d/1vQgoystiUXvKiA6HBekEE-9zmSScsYDU/view?usp=drivesdk"
+                      >
+                        Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container py-1">
         <div className="row justify-content-center mb-3">
           <div className="col-md-12 col-xl-10">
             <div className="card shadow-0 border rounded-3">
@@ -144,16 +193,16 @@ const Certificates = () => {
                     <div className="mt-1 mb-0 text-light small">
                       <span>Data Analysis</span>
                       <span className="text-primary"> • </span>
-                      <span>Visualization</span>
+                      <span>MERN Stack Development</span>
                       <span className="text-primary"> • </span>
                       <span>Web App Development<br /></span>
                     </div>
                     <div className="mb-2 text-light small">
-                      <span>Prototype Testing</span>
+                      <span>Backend Development</span>
                       <span className="text-primary"> • </span>
-                      <span>Python Developer</span>
+                      <span>SFrontend Development</span>
                       <span className="text-primary"> • </span>
-                      <span>React.js Developer<br /></span>
+                      <span>Scientific Reasearches<br /></span>
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">

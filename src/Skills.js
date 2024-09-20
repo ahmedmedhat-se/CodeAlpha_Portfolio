@@ -21,33 +21,33 @@ const Skills = () => {
                             <div className="text-row">
                                 <div className="list-bullet-icon"></div>
                                 <p className="list-paragraph list-item-text">
-                                    Web Developer: Proficient in HTML5, CSS3, JavaScript, TypeScript, Bootstrap, Node.js, React.js, and
-                                    PHP; experienced in building responsive and dynamic web applications; strong understanding of web
-                                    development best practices and frameworks; skilled in optimizing performance and ensuring
+                                    Web Developer : Proficient in HTML5, CSS3, JavaScript, TypeScript, Bootstrap v5, React.js, Express.js, Node.js,
+                                    PHP and SQL, experienced in building responsive and dynamic web applications, strong understanding of web
+                                    development best practices and frameworks, skilled in optimizing performance and ensuring
                                     cross-browser compatibility.
                                 </p>
                             </div>
                             <div className="text-row">
                                 <div className="list-bullet-icon"></div>
                                 <p className="list-paragraph list-item-text">
-                                    Python Developer: Expertise in Python programming and scripting; experience in automating tasks and
-                                    developing efficient algorithms; proficient in debugging and testing Python code.
+                                    Python Developer : Expertise in Python programming and scripting, experience in automating tasks and
+                                    developing efficient algorithms, proficient in debugging and testing Python code.
                                 </p>
                             </div>
                             <div className="text-row">
                                 <div className="list-bullet-icon"></div>
                                 <p className="list-paragraph list-item-text">
-                                    Data Analyst: Experienced in data visualization; proficient in using tools such as Excel, SQL, and
-                                    Python for data analysis; skilled in statistical analysis and interpreting data trends; able to
+                                    Data Analyst : Experienced in data visualization, proficient in using tools such as Excel, SQL, and
+                                    Python for data analysis, skilled in statistical analysis and interpreting data trends, able to
                                     present findings in clear and actionable reports.
                                 </p>
                             </div>
                             <div className="text-row last">
                                 <div className="list-bullet-icon"></div>
                                 <p className="list-paragraph list-item-text">
-                                    Scientific Researcher: Conducts thorough and methodical scientific research; skilled in designing
-                                    experiments, collecting and analyzing data; proficient in writing research papers and presenting
-                                    findings; knowledgeable in various research methodologies and techniques.
+                                    Scientific Researcher : Conducts thorough and methodical scientific research, skilled in designing
+                                    experiments, collecting and analyzing data, proficient in writing research papers and presenting
+                                    findings, knowledgeable in various research methodologies and techniques.
                                 </p>
                             </div>
                             <a

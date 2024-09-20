@@ -1,8 +1,28 @@
-/* Styling the whole document */
+/* Styling The Whole Document - Starts */
 * {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Allow scrolling but hide scrollbar for "Chrome, Safari, Edge" Strt */
+html,
+body {
+  overflow: auto;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+/* Allow scrolling but hide scrollbar for "Chrome, Safari, Edge" End */
+
+/* Body Section Styling Starts */
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +31,9 @@ body {
   height: 100vh;
 
 }
+/* Body Section Styling Ends */
 
+/* Navbar Component Styling Starts */
 .btn:hover {
   transition: 0.8s;
 }
@@ -35,10 +57,10 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 18px;
 }
 
+/* Header Section Styling Starts */
 header {
   padding: 5rem;
-  margin-top: 140px;
-  background-color: #F5F8FA; 
+  margin-top: 130px;
   color: #000;
 }
 
@@ -58,10 +80,10 @@ header .home-landing p {
 
 header .box div {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-color: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 header .box div:nth-child(1) {
@@ -135,7 +157,10 @@ header .box div:nth-child(10) {
     opacity: 0;
   }
 }
+/* Header Section Styling Ends */
+/* Navbar Component Styling Ends */
 
+/* AboutMe Component Styling Starts */
 .about-me {
   background-color: #F5F8FA; 
   padding: 2rem;
@@ -151,7 +176,9 @@ header .box div:nth-child(10) {
   transition: 0.8s ease;
   box-shadow: 2px 2px 2px 2px #000000;
 }
+/* AboutMe Component Styling Ends */
 
+/* Projects Component Styling Starts */
 .projects {
   display: flex;
   padding: 10px;
@@ -167,6 +194,7 @@ header .box div:nth-child(10) {
   background: #222;
   color: rgba(250, 250, 250, 0.8);
   border: none;
+  box-shadow: 2px 2px 2px 2px rgb(11, 2, 33);
 }
 
 .projects .card .btn {
@@ -181,7 +209,9 @@ header .box div:nth-child(10) {
 .btn:hover {
   border: 1px solid rgb(19, 3, 61);
 }
+/* Projects Component Styling Ends */
 
+/* Skills Component Styling Starts */
 .skill-section .background {
   width: 90%;
   height: 650px;
@@ -387,7 +417,9 @@ header .box div:nth-child(10) {
   font-size: 18px;
   line-height: 24px;
 }
+/* Skills Component Styling Ends */
 
+/* Footer Component Styling Starts */
 footer {
   background: linear-gradient(223deg, rgba(56, 12, 89, 1) 47%, rgba(131, 58, 180, 1) 70%, rgba(193, 53, 132, 1) 85%, rgba(252, 175, 69, 1) 100%);
   color: #fff;
@@ -397,8 +429,9 @@ footer {
 footer .text-body {
   text-decoration: none;
 }
+/* Footer Component Styling Ends */
 
-
+/* Media-Query Section Styling Starts */
 @media (max-width: 1024px) {
   .skill-section .background {
     height: 500px;
@@ -573,3 +606,5 @@ footer .text-body {
   background-color: #000;
   color: #fff;
 }
+/* Media-Query Section Styling Ends */
+/* Styling The Whole Document - Ends */
